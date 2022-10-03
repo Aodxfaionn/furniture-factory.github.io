@@ -479,13 +479,15 @@
     </section>
     <section class="contacts">
       <div class="contacts__form">
-        <h3 class="contacts__adress--title">Заполните заявку для связи с менеджером</h3>
-        <form>
-          <input type="text" placeholder="Ваше имя" class="contacts__adress--field" required>
-          <p><input type="text" placeholder="Ваша фамилия" class="contacts__adress--field" required></p>
-          <p><input type="tel" placeholder="Телефон для связи" minlength="10" maxlength="11" class="contacts__adress--field" required></p>
-          <p><input type="time" placeholder="Удобное время для звонка" min="09:00" max="18:00" class="contacts__adress--field"></p>
-          <button type="submit" class="contacts__adress--field">Отправить</button>
+        <h3 class="contacts__form--title">Заполните заявку для связи с менеджером</h3>
+        <form class="contacts__form--container">
+          <input type="text" placeholder="Ваше имя" class="contacts__form--field field--name" required>
+          <p><input type="text" placeholder="Ваша фамилия" class="contacts__form--field" required></p>
+          <p><input type="tel" placeholder="Телефон для связи" minlength="10" maxlength="11"
+              class="contacts__form--field" required></p>
+          <p><input type="time" placeholder="Удобное время для звонка" min="09:00" max="18:00"
+              class="contacts__form--field time"></p>
+          <button type="submit" class="contacts__adress--btn">Отправить</button>
         </form>
       </div>
       <div class="contacts__adress">
@@ -497,9 +499,15 @@
           <li>Г. Санкт-Петербург, ул. Касаткина 11</li>
           <li>Г. Краснодар, ул. Пирогова 7</li>
       </div>
+      <div class="b-popup">
+        <div class="b-popup-content">
+          <span class="close">&times;</span>
+        </div>
+      </div>
     </section>
   </main>
   <script src="js/script.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 
 </html>

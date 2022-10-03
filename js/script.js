@@ -1,7 +1,6 @@
 const btnPrev = document.querySelector(".slider__button--prev");
 const btnNext = document.querySelector(".slider__button--next");
 const slider = document.querySelector(".slider__list");
-/* const cards = document.querySelectorAll(".slider__item"); */
 
 let left = 0;
 let imgWidth = 1180;
