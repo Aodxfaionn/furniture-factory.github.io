@@ -433,9 +433,8 @@ a {
 
 .contacts__form,
 .contacts__adress {
-  border: 1px #6c63ff solid;
   border-radius: 30px;
-  box-shadow: 1px 1px 5px 1px #c6c3fa;
+  box-shadow: 2px 2px 5px 5px #c9c7f7;
   width: 550px;
 }
 
@@ -506,8 +505,11 @@ input::-moz-placeholder {
   background-color: aliceblue;
   margin: 15% auto;
   padding: 20px;
-  width: 80%;
-  border: 1px solid #000;
+  width: 400px;
+  height: 150px;
+  border: 3px solid #6c63ff;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .close {
