@@ -434,7 +434,7 @@ a {
 .contacts__form,
 .contacts__adress {
   border-radius: 30px;
-  box-shadow: 2px 2px 5px 5px #c9c7f7;
+  box-shadow: 1px 1px 5px 5px #d8d8e6;
   width: 550px;
 }
 
@@ -465,7 +465,7 @@ a {
 }
 
 .contacts__adress--btn:hover {
-  box-shadow: 1px 1px 10px 1px #6c63ff;
+  box-shadow: 1px 1px 10px 1px #b8b8d7;
 }
 
 .time:before {
@@ -507,7 +507,6 @@ input::-moz-placeholder {
   padding: 20px;
   width: 400px;
   height: 150px;
-  border: 3px solid #6c63ff;
   border-radius: 20px;
   text-align: center;
 }
